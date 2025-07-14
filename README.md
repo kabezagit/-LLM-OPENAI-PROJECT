@@ -7,10 +7,10 @@ This application is an interactive AI chatbot built using [Streamlit](https://st
 ## How LangChain is Used
 
 LangChain is the core framework that connects all the components of this chatbot. In this app, LangChain provides:
-- **Prompt Management:** Uses `ChatPromptTemplate` to define and manage the system and user prompts, making it easy to customize how the AI is instructed and how user input is handled.
-- **Chaining Components:** Chains together the prompt, the OpenAI language model, and the output parser into a single pipeline, so user questions are automatically processed and answered in a structured way.
-- **Output Parsing:** Uses `StrOutputParser` to ensure the model's response is returned as clean, readable text.
-- **Modularity:** Makes it easy to extend or modify the chatbot's logic by swapping or adding components (e.g., different models, prompt strategies, or output formats).
+- Prompt Management:** Uses `ChatPromptTemplate` to define and manage the system and user prompts, making it easy to customize how the AI is instructed and how user input is handled.
+- Chaining Components:** Chains together the prompt, the OpenAI language model, and the output parser into a single pipeline, so user questions are automatically processed and answered in a structured way.
+- Output Parsing:** Uses `StrOutputParser` to ensure the model's response is returned as clean, readable text.
+- Modularity:** Makes it easy to extend or modify the chatbot's logic by swapping or adding components (e.g., different models, prompt strategies, or output formats).
 
 LangChain enables rapid development of robust, composable AI applications by abstracting away much of the boilerplate and providing a flexible, high-level API for working with language models.
 
