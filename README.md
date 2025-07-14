@@ -1,4 +1,4 @@
-                                                                                                                  LLM-OPENAI PROJECT
+LLM-OPENAI PROJECT
 
 About this App
 
